@@ -5,6 +5,8 @@ Introduction:
 
 A chatbot is a computer program designed to simulate conversation with human users, especially over the internet. They are often used in customer service,virtual assistants, and various other applications to provide information, answer questions, and assist users in completing tasks. Chatbots can be simple orcomplex, with some using `artificial intelligence (AI)` and `natural language processing (NLP)` to understand and respond to user input in a more human-like manner.They are becoming increasingly popular due to their ability to automate interactions and provide efficient and personalized customer service.
 
+The dataset used in this model is designed to help the chatbot understand and respond to a variety of user queries related to booking tables, checking menu options, getting information about the restaurant, and more.
+
 # Application of `Deep Learning` models into the `Chatbot`:
 
 1. **Artificial Neural Network (ANN)**: The code uses a type of ANN called a `Multilayer Perceptron (MLP)`. An MLP consists of multiple layers of nodes, each connected to nodes in the adjacent layers. These nodes, or neurons, process inputs and pass the result to the next layer. The MLP learns patterns in the input data through a process called backpropagation, adjusting the weights of connections between neurons to minimize errors in predictions.
@@ -23,4 +25,4 @@ A chatbot is a computer program designed to simulate conversation with human use
 
 # Additional algorithms used in the model:
 
-A simple feedforward neural network is implemented in the model using the `Keras` library. The neural network consists of several dense (fully connected) layers with `**rectified linear unit (ReLU) activation functions**`. The model is trained using `**stochastic gradient descent (SGD)**` with `Nesterov accelerated gradient` as the optimizer and categorical cross-entropy as the loss function. The final layer uses a softmax activation function to predict the intent of the user input. This architecture is commonly used for text classification tasks, such as intent recognition in chatbots.
+A simple feedforward neural network is implemented in the model using the `Keras` library. The neural network consists of several dense (fully connected) layers with `rectified linear unit (ReLU) activation functions`. The model is trained using `stochastic gradient descent (SGD)` with `Nesterov accelerated gradient` as the optimizer and categorical cross-entropy as the loss function. The final layer uses a softmax activation function to predict the intent of the user input. This architecture is commonly used for text classification tasks, such as intent recognition in chatbots.
